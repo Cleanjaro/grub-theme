@@ -8,7 +8,7 @@
 pkgbase=grub-theme-live
 pkgname=('grub-theme-live-common' 'grub-theme-live-cleanjaro' 'grub-theme-cleanjaro')
 pkgver=19.08
-pkgrel=2
+pkgrel=3
 pkgdesc='Cleanjaro Linux grub theme'
 arch=('any')
 url="https://github.com/Yorper/grub-theme"
