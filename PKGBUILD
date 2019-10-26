@@ -1,4 +1,5 @@
-# Maintainer: Philip Müller <philm[at]manjaro[dog]org>
+# Maintainer: David Spink <yorper_protonmail.com>
+# Contributor: Philip Müller <philm_manjaro.org>
 # Contributor: artoo <artoo@manjaro.org>
 # Contributor: anex <assassin.anex[@]gmail.com>
 # Contributor: Stefano Capitani <stefano@manjaro.org>
@@ -11,7 +12,7 @@ pkgver=19.10
 pkgrel=1
 pkgdesc='Cleanjaro Linux grub theme'
 arch=('any')
-url="https://github.com/Yorper/grub-theme"
+url="https://github.com/Cleanjaro/grub-theme"
 license=('GPL')
 makedepends=('git')
 source=("grub-theme::git+$url.git")
