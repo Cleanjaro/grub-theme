@@ -9,7 +9,7 @@
 pkgbase=grub-theme-live
 pkgname=('grub-theme-live-common' 'grub-theme-live-cleanjaro' 'grub-theme-cleanjaro')
 pkgver=19.11
-pkgrel=2
+pkgrel=1
 pkgdesc='Cleanjaro Linux grub theme'
 arch=('any')
 url="https://github.com/Cleanjaro/grub-theme"
@@ -17,6 +17,10 @@ license=('GPL')
 makedepends=('git')
 source=("grub-theme::git+$url.git")
 sha256sums=('SKIP')
+
+pkgver() {
+  date +%Y%m%d
+}
 
 package_grub-theme-live-common() {
     depends=('grub')
