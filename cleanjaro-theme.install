@@ -9,7 +9,7 @@ cat << _EOF
 ==> Installation: Theme is added to your /etc/default/grub: GRUB_THEME="/usr/share/grub/themes/cleanjaro/theme.txt"
 ==> Default resolution "auto"
 ==> If an OS icon doesn't appear probably not present in /usr/share/grub/themes/cleanjaro/icons simply add it or merge in
-==> https://github.com/Yorper/grub-theme
+==> https://github.com/Cleanjaro/grub-theme
 
 _EOF
 }
